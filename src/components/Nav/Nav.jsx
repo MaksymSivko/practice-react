@@ -1,22 +1,24 @@
 import React from 'react';
+import './Nav.css';
 
 const Nav = () => {
     return (
         <nav className="nav">
             <div>
-                <a href="#">Profil</a>
+                {/* <a>Profil</a> */}
+                Profil
             </div>
             <div>
-                <a href="#">Message</a>
+                {/* <a>Message</a> */}
+                Message
             </div>
             <div>
-                <a href="#">News</a>
+                {/* <a>News</a> */}
+                News
             </div>
             <div>
-                <a href="#">News</a>
-            </div>
-            <div>
-                <a href="#">Settings</a>
+                {/* <a>Settings</a> */}
+                Settings
             </div>
         </nav>
     );
