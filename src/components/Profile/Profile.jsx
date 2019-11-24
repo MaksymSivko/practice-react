@@ -1,9 +1,10 @@
 import React from 'react';
-import './Profile.css';
+import style from './Profile.module.css';
+import MyPosts from './MyPosts/MyPosts';
 
 const Profile = () => {
     return (
-        <div className="content">
+        <div className={style.content}>
             <div>
                 <img
                     src="https://www.pond5.com/images/images_db/vlp/image-hero-poster.jpg"
@@ -31,6 +32,7 @@ const Profile = () => {
                     laboriosam exercitationem quidem earum ullam? Laborum!
                 </p>
             </div>
+            <MyPosts />
         </div>
     );
 };

@@ -1,0 +1,27 @@
+.Post_container {
+	background: blue;
+	display: flex;
+	justify-content: space-around;
+	padding: 20px;
+
+	.Post_img {
+		img {
+			width: 80px;
+			height: 80px;
+			border-radius: 50%;
+		}
+	}
+
+	.Post_user {
+		.Post_user_name {
+			color: brown;
+			font-size: 20px;
+			padding: 10px 0;
+		}
+
+		.Post_user_text {
+			font-size: 16px;
+			text-decoration: underline;
+		}
+	}
+}
