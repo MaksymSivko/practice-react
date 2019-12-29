@@ -1,15 +1,18 @@
 import React from 'react';
-import './App.css';
-import Header from './components/Header/Header';
-import Nav from './components/Nav/Nav';
-import Profile from './components/Profile/Profile';
+import { Header } from './components/Header';
+import { Nav } from './components/Nav';
+import { Profile } from './components/Profile';
+
+import Style from './style.module.css';
 
 function App() {
     return (
-        <div className="app-wrapper">
+        <div className={Style.app__wrapper}>
             <Header />
-            <Nav />
-            <Profile />
+            <section className={Style.main__wrapper}>
+                <Nav />
+                <Profile />
+            </section>
         </div>
     );
 }

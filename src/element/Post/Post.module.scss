@@ -1,0 +1,33 @@
+.post__wrapper {
+	background: #02b1cf;
+	display: flex;
+	align-items: center;
+	padding: 20px;
+	margin: 10px 0;
+
+	.post__img {
+		width: 100%;
+		max-width: 120px;
+
+		img {
+			width: 80px;
+			height: 80px;
+			border-radius: 50%;
+		}
+	}
+
+	.post__user {
+		padding: 0 20px;
+
+		.user__name {
+			color: #a52a2a;
+			font-size: 20px;
+			padding-bottom: 10px;
+		}
+
+		.user__text {
+			font-size: 16px;
+			font-weight: 600;
+		}
+	}
+}

@@ -1,8 +1,8 @@
 import React from 'react';
 import style from './Profile.module.css';
-import MyPosts from './MyPosts/MyPosts';
+import { MyPosts } from './MyPosts';
 
-const Profile = () => {
+export const Profile = () => {
     return (
         <div className={style.content}>
             <div>
@@ -12,10 +12,10 @@ const Profile = () => {
                 />
             </div>
 
-            <div>
+            <div className={style.text__wrap}>
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quia,
                 consequatur?
-                <p>
+                <p className={style.text__p}>
                     Lorem, ipsum dolor sit amet consectetur adipisicing elit.
                     Labore molestiae doloribus aspernatur, odio quisquam quis
                     accusantium eveniet rerum, dolor nihil illo repudiandae
@@ -36,5 +36,3 @@ const Profile = () => {
         </div>
     );
 };
-
-export default Profile;

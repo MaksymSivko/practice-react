@@ -1,9 +1,9 @@
 import React from 'react';
-import './Header.css';
+import Style from './Header.module.css';
 
-const Header = () => {
+export const Header = () => {
     return (
-        <header className="header">
+        <header className={Style.header}>
             <img
                 src="https://png.pngtree.com/element_pic/00/16/07/115783931601b5c.jpg"
                 className="logo"
@@ -12,4 +12,3 @@ const Header = () => {
         </header>
     );
 };
-export default Header;
